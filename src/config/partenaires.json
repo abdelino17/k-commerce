@@ -1,31 +1,31 @@
 {
   "odjala": {
-      "name": "Odjala",
-      "icon": "logos/prestashop.png",
-      "type": "PrestaShop",
-      "description": "Faites vos achats facilement et de manière sécurisée avec le site Odjala disponible également en ligne à l'adresse www.odjala.com",
-      "parameters": {
-          "endpoint": "http://13.232.71.220/api",
-          "username": "63CK4LDGDYX1VYXRXT1HTIMFX1SS49U6",
-          "images_key": "SDN4ZHMNCNMD9PHRMEWS1XC8MA4M6IY6",
+    "name": "Client1",
+    "icon": "logos/prestashop.png",
+    "type": "PrestaShop",
+    "description": "Faites vos achats facilement et de manière sécurisée avec le site Odjala disponible également en ligne à l'adresse www.odjala.com",
+    "parameters": {
+      "endpoint": "http://x.x.x.x/api",
+      "username": "foobar",
+      "images_key": "foobarkey",
 
-          "id_parent": 2,
-          "id_currency": 1,
-          "id_lang": 1,
-          "id_shop": 1,
-          "current_state": 1,
-          "id_carrier": 1,
-          "module": "ps_checkpayment",
-          "payment": "Payments by check",
-         "conversion_rate": 1,
+      "id_parent": 2,
+      "id_currency": 1,
+      "id_lang": 1,
+      "id_shop": 1,
+      "current_state": 1,
+      "id_carrier": 1,
+      "module": "ps_checkpayment",
+      "payment": "Payments by check",
+      "conversion_rate": 1,
 
-        "taxes": {
-            "id_0": 0,
-            "id_1": 12.5,
-            "id_2": 4,
-            "id_3": 1
-        }
+      "taxes": {
+        "id_0": 0,
+        "id_1": 12.5,
+        "id_2": 4,
+        "id_3": 1
       }
+    }
   },
   "super-ramco": {
     "name": "SuperRamco",
