@@ -1,0 +1,7 @@
+{
+  "currency": "FCFA",
+  "secret": "k-commerce",
+  "auth": {
+      "by": "email"
+    }
+}

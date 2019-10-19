@@ -1,24 +1,50 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import Guard from "@/utils/Guard";
 
 Vue.use(Router);
 
 export default new Router({
   routes: [
-    {
-      path: "/",
-      name: "home",
-      component: Home
-    },
-    {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
-    }
+      {
+        path: "",
+        name: "home",
+        component: Home
+      },
+      {
+        path: '/shop/:code',
+        name: 'shop',
+          beforeEnter: (to, from, next) => {
+            Guard.checkShop(to.params.code, next)
+          },
+          component: () =>
+              import("./views/ShopPage.vue")
+      },
+      {
+          path: '/shop/:code/category/:cat_id',
+          name: 'category',
+          component: () =>
+              import("./views/CategoryPage.vue")
+      },
+      {
+          path: '/shop/:code/checkout',
+          name: 'checkout',
+          beforeEnter: (to, from, next) => {
+              Guard.checkShop(to.params.code, next, true)
+          },
+          component: () =>
+              import("./views/CheckoutPage.vue")
+      },
+      {
+          path: '/carts',
+          name: 'carts',
+          component: () =>
+              import("./views/CartPage.vue")
+      },
+      {
+          path: '*',
+          redirect: '/'
+      }
   ]
 });

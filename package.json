@@ -8,12 +8,31 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@types/gsap": "^1.19.2",
+    "@types/hashids": "^1.0.30",
+    "@types/jquery": "^3.3.6",
+    "axios": "^0.18.0",
+    "faker": "^4.1.0",
+    "gsap": "^2.0.2",
+    "hashids": "^1.1.4",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.10",
+    "materialize-css": "^1.0.0",
     "register-service-worker": "^1.0.0",
+    "sweetalert2": "^7.26.28",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
+    "vue-form-wizard": "^0.8.4",
+    "vue-inputmask": "^0.2.1",
+    "vue-ladda": "0.0.15",
+    "vue-loading-overlay": "^2.2.1",
     "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue2-animate": "^2.1.0",
+    "vuex": "^3.0.1",
+    "vuex-class-persist": "0.0.1-beta.1",
+    "vuex-persist": "^1.5.2",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",
@@ -25,7 +44,7 @@
     "@vue/eslint-config-typescript": "^3.0.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "typescript": "^3.0.0",
+    "typescript": "^3.0.3",
     "vue-template-compiler": "^2.5.17"
   }
 }
