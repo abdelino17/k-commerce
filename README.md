@@ -1,6 +1,6 @@
 # k-commerce
 
-K-commerce (short for Kiosk e-commerce) is a next-generation application developed with VueJs and a Backend E-Commerce CMS (Prestashop, but can be extended to Magento, WooCommerce).
+K-commerce (short for Kiosk E-Commerce) is a next-generation application developed with VueJs and a CMS backend (Prestashop, Magento, WooCommerce).
 
 The project is a proof-of-concept (POC) aiming at demonstrating how to interconnect a single page application to a Backend CMS (Only Prestashop has been developed) for placing orders.
 
