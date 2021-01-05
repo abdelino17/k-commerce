@@ -11,7 +11,7 @@
     "@types/gsap": "^1.19.2",
     "@types/hashids": "^1.0.30",
     "@types/jquery": "^3.3.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "faker": "^4.1.0",
     "gsap": "^2.0.2",
     "hashids": "^1.1.4",
